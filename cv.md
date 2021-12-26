@@ -11,7 +11,7 @@
 ***
 I am 23 year old. I have university bachelor's degree in international relationships. After graduation I got the position of Event director's personal assistant in Saint Petersburg Yacht Club. I help my executive in organization of sport and sailing events and also do personal tasks. I am doint tasks from fifferent areas as sport, sailing, cultural, museum, HR spheres.
 
-But I have decided to lern something extremelt new. I whant to develop myself in IT sphere, especially in Frontend Developing.
+But I have decided to lern something extremely new. I whant to develop myself in IT sphere, especially in Frontend Developing.
 
 1. My strenghts:
    * ability to sit still;
@@ -69,7 +69,7 @@ But I have decided to lern something extremelt new. I whant to develop myself in
    * I have no experience in IT sphere, but whant to develop new skills and knowlages in it and in future get the position in Frontend Developing. 
 
 ## Education
-   * __University__: Saint Petersburg State University of Economics. __Specialiti__: international relationships.
+   * __University__: Saint Petersburg State University of Economics. __Speciality__: international relationships.
    * __Courses__: 
       * HTML and CSS Basic in Stepik.
 
