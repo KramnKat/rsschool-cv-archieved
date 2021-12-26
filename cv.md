@@ -73,7 +73,7 @@ But I have decided to lern something extremelt new. I whant to develop myself in
    * __Courses__: 
       * HTML and CSS Basic in Stepik.
 
-## Languagess
+## Languages
    * Russian (native)
    * English (B1)
    * German (A1)
