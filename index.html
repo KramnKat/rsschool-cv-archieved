@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.png">
 </head>
 <body>
-    <p class="header">Header</p>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item contact-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <div class="profile-title">
+                    <h1 class="section-title">Ekaterina Guseva</h1>
+                    <h2 class="section-title">Beginner Front-end Developer</h2>
+                </div>
+                <img src="Myphoto.jpeg" alt="avatar">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title" >Contacts</h2>
+                <ul class="list">
+                    <li>&#9873; Location: Saint Petersburg, Russia</li>
+                    <li>&#9742; Phone: +7 981-913-64-45</li>
+                    <li>&#9998; Email: <a class="link" href="mailto:kramnkaterinka@gmail.com"> kramnkaterinka@gmail.com</a></li>
+                    <li>&#9941; GitHub: <a class="link" href="https://github.com/KramnKat">KramnKat</a></li>
+    
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>I am 23 year old. I have university bachelor's degree in international relationships. After graduation I got the position of Event director's personal assistant in Saint Petersburg Yacht Club. I help my executive in organization of sport and sailing events and also do personal tasks. I am doint tasks from different areas as sport, sailing, cultural, museum, HR spheres.</p>
+                <p>But I have decided to lern something extremely new. I whant to develop myself in IT sphere, especially in Frontend Developing.</p>
+                <ol>
+                    <li>My strenghts:
+                        <ul>
+                            <li>ability to sit still;</li>
+                            <li>hardworking;</li>
+                            <li>ability to concentrate on a task;</li>
+                            <li>teamwork skills;</li>
+                        </ul>
+                    </li>
+                    <li>Experience:
+                        <ul>
+                            <li>more than 1 year of working on the position of Event director's personal assistant.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list">
+                    <li>HTML (Basic)</li>
+                    <li>CSS (Basic)</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="code-example">
+                <pre>
+                &lt;style&gt;
+                @keyframes color-change {
+                    0% { color:aquamarine }
+                    50% { color: salmon; }
+                    100% { color: aquamarine; }
+                }
+                    .text-block {
+                        animation: color-change 4s infinite;
+                    }
+                &lt;/style&gt;
+                </pre>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ol>
+                    <li>University
+                        <ul>
+                            <li>Saint Petersburg State University of Economics. <br>Speciality: international relationships.</li>
+                        </ul>
+                    </li>
+                    <li>Cources:
+                        <ul class="education-list">
+                            <li> <a class="link" href="https://stepik.org/course/52164/promo#toc">HTML and CSS Basic (Stepik)</a></li>
+                            <li> <a class="link" href="https://rs.school/js-stage0/"> JavaScript/Front-end. Stage 0 (in proccess) </a> </li>
+                        </ul>   
+                    </li>
+                </ol>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Lenguages</h2>
+                <ul class="list">
+                    <li>Russian (native)</li>
+                    <li>English (B1)</li>
+                    <li>German (A1)</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Project</h2>
+                <img class="project-img" src="assets/project.PNG" alt="CV project">
+                <div class="button">
+                    <a class="link" href="">See project</a>
+                </div>
+            </section>
+        </div> 
+    </main>
+    <footer class="footer">
+         <ul class="footer-list">
+                    <li>&copy; <a class="link" href="https://github.com/KramnKat">KramnKat</a></li>
+                    <li>2022</li>
+                    <li><a class="link" href="https://rs.school/js/"><img class="logo" src="./assets/RSlogo.svg" alt="RSjs logo"></a></li>
+         </ul>
+    </footer>
 </body>
 </html>
