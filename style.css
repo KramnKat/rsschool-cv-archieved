@@ -98,6 +98,7 @@ footer {
   }
 
   .nav-link {
+    color: rgb(250, 217, 175) ;
     padding: 15px 35px;
     line-height: 42.5px;
     text-decoration: none;
@@ -110,7 +111,7 @@ footer {
       color: #c9ac8b;
       transition: color 0.5s;
   }
-
+  
   .nav-link:visited {
     color: cornsilk;
   }
